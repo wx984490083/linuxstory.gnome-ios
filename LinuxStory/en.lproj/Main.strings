@@ -1,0 +1,27 @@
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "2cQ-Pl-cm9"; */
+"2cQ-Pl-cm9.title" = "Item 2";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "3E4-hh-Tzf"; */
+"3E4-hh-Tzf.title" = "Item";
+
+/* Class = "UILabel"; text = "LinuxStory"; ObjectID = "Jv2-VC-cB9"; */
+"Jv2-VC-cB9.text" = "LinuxStory";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "Su9-9i-NQb"; */
+"Su9-9i-NQb.title" = "Item 1";
+
+/* Class = "UIButton"; normalTitle = "How to get access token?"; ObjectID = "ZgL-td-FWZ"; */
+"ZgL-td-FWZ.normalTitle" = "How to get access token?";
+
+/* Class = "UIButton"; normalTitle = "Just see see, login with guest"; ObjectID = "baJ-Oe-lZT"; */
+"baJ-Oe-lZT.normalTitle" = "Just see see, login with guest";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "kIG-yO-WZT"; */
+"kIG-yO-WZT.normalTitle" = "LOGIN";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "lzf-f7-KSv"; */
+"lzf-f7-KSv.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "ACCESS TOKEN"; ObjectID = "tai-hL-ExF"; */
+"tai-hL-ExF.placeholder" = "ACCESS TOKEN";
