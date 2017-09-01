@@ -19,6 +19,10 @@
 		034405701F57E71600DE71A6 /* GLSInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0344056F1F57E71600DE71A6 /* GLSInfoViewController.swift */; };
 		034405721F57E76E00DE71A6 /* GLSEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034405711F57E76E00DE71A6 /* GLSEventViewController.swift */; };
 		034405741F57E77B00DE71A6 /* GLSGNomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034405731F57E77B00DE71A6 /* GLSGNomeViewController.swift */; };
+		0344057E1F57FE8500DE71A6 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 034405771F57FE8500DE71A6 /* GTMNSString+HTML.m */; };
+		0344057F1F57FE8500DE71A6 /* IDNFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 034405791F57FE8500DE71A6 /* IDNFeedParser.m */; };
+		034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */; };
+		034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057D1F57FE8500DE71A6 /* NSString+HTML.m */; };
 		0559CF5115F3ABA80DA7D8C5 /* Pods_LinuxStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +48,14 @@
 		0344056F1F57E71600DE71A6 /* GLSInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLSInfoViewController.swift; sourceTree = "<group>"; };
 		034405711F57E76E00DE71A6 /* GLSEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLSEventViewController.swift; sourceTree = "<group>"; };
 		034405731F57E77B00DE71A6 /* GLSGNomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLSGNomeViewController.swift; sourceTree = "<group>"; };
+		034405761F57FE8500DE71A6 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		034405771F57FE8500DE71A6 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		034405781F57FE8500DE71A6 /* IDNFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDNFeedParser.h; sourceTree = "<group>"; };
+		034405791F57FE8500DE71A6 /* IDNFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDNFeedParser.m; sourceTree = "<group>"; };
+		0344057A1F57FE8500DE71A6 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		0344057C1F57FE8500DE71A6 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		0344057D1F57FE8500DE71A6 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
 		368F10F37CA7E6A79EB482F9 /* Pods-LinuxStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinuxStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinuxStory/Pods-LinuxStory.debug.xcconfig"; sourceTree = "<group>"; };
 		3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinuxStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +102,7 @@
 				034405541F57A37D00DE71A6 /* GLSPersonalViewController.swift */,
 				034405641F57BC7400DE71A6 /* LinuxStory-Bridging-Header.h */,
 				03293B801F5799B600B5A180 /* Main.storyboard */,
+				034405751F57FE8500DE71A6 /* IDNFeedParser */,
 				034405611F57BA1600DE71A6 /* Network */,
 				034405531F57A21E00DE71A6 /* SupportFiles */,
 			);
@@ -123,6 +136,21 @@
 				0344056C1F57BCBA00DE71A6 /* Reachability.m */,
 			);
 			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		034405751F57FE8500DE71A6 /* IDNFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				034405761F57FE8500DE71A6 /* GTMNSString+HTML.h */,
+				034405771F57FE8500DE71A6 /* GTMNSString+HTML.m */,
+				034405781F57FE8500DE71A6 /* IDNFeedParser.h */,
+				034405791F57FE8500DE71A6 /* IDNFeedParser.m */,
+				0344057A1F57FE8500DE71A6 /* NSDate+InternetDateTime.h */,
+				0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */,
+				0344057C1F57FE8500DE71A6 /* NSString+HTML.h */,
+				0344057D1F57FE8500DE71A6 /* NSString+HTML.m */,
+			);
+			path = IDNFeedParser;
 			sourceTree = "<group>";
 		};
 		14C89D2E5FD5E4CB40B067FF /* Pods */ = {
@@ -279,9 +307,13 @@
 				0344056D1F57BCBA00DE71A6 /* HTTPClient.m in Sources */,
 				034405701F57E71600DE71A6 /* GLSInfoViewController.swift in Sources */,
 				0344056E1F57BCBA00DE71A6 /* Reachability.m in Sources */,
+				034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */,
+				034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */,
 				034405521F57A20F00DE71A6 /* GLSMainTabViewController.swift in Sources */,
 				03293B7D1F5799B600B5A180 /* AppDelegate.swift in Sources */,
 				034405721F57E76E00DE71A6 /* GLSEventViewController.swift in Sources */,
+				0344057F1F57FE8500DE71A6 /* IDNFeedParser.m in Sources */,
+				0344057E1F57FE8500DE71A6 /* GTMNSString+HTML.m in Sources */,
 				034405741F57E77B00DE71A6 /* GLSGNomeViewController.swift in Sources */,
 				034405551F57A37D00DE71A6 /* GLSPersonalViewController.swift in Sources */,
 			);

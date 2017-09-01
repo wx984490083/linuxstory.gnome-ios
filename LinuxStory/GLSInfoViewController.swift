@@ -9,12 +9,14 @@
 import UIKit
 
 /// 资讯页面
-class GLSInfoViewController: UIViewController {
+class GLSInfoViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

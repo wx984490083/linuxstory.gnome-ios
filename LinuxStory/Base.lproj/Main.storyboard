@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="10.4" y="116.49175412293854"/>
         </scene>
-        <!--View Controller-->
+        <!--Info View Controller-->
         <scene sceneID="jEv-1D-Gea">
             <objects>
-                <viewController id="bbW-ND-HWL" sceneMemberID="viewController">
+                <viewController id="bbW-ND-HWL" customClass="GLSInfoViewController" customModule="LinuxStory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7NT-pe-vIj"/>
                         <viewControllerLayoutGuide type="bottom" id="Uoy-0a-YG6"/>
@@ -170,10 +170,10 @@
             </objects>
             <point key="canvasLocation" x="-1294" y="1975"/>
         </scene>
-        <!--View Controller-->
+        <!--Event View Controller-->
         <scene sceneID="cwU-cE-m3m">
             <objects>
-                <viewController id="ikd-JH-q9p" sceneMemberID="viewController">
+                <viewController id="ikd-JH-q9p" customClass="GLSEventViewController" customModule="LinuxStory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UoH-j3-tGR"/>
                         <viewControllerLayoutGuide type="bottom" id="saK-nr-Niw"/>
@@ -189,10 +189,10 @@
             </objects>
             <point key="canvasLocation" x="-433" y="2893"/>
         </scene>
-        <!--View Controller-->
+        <!--Nome View Controller-->
         <scene sceneID="XQc-Bz-Gno">
             <objects>
-                <viewController id="R6o-RD-IaR" sceneMemberID="viewController">
+                <viewController id="R6o-RD-IaR" customClass="GLSGNomeViewController" customModule="LinuxStory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="B8i-fP-hZa"/>
                         <viewControllerLayoutGuide type="bottom" id="AtL-7X-HQP"/>
@@ -208,10 +208,10 @@
             </objects>
             <point key="canvasLocation" x="390" y="2893"/>
         </scene>
-        <!--View Controller-->
+        <!--Personal View Controller-->
         <scene sceneID="RhX-zR-JPB">
             <objects>
-                <viewController id="WFs-zL-BRk" sceneMemberID="viewController">
+                <viewController id="WFs-zL-BRk" customClass="GLSPersonalViewController" customModule="LinuxStory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2bR-6g-Bau"/>
                         <viewControllerLayoutGuide type="bottom" id="yL7-YT-u1g"/>

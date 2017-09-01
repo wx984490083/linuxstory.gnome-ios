@@ -4,3 +4,5 @@
 
 #import "HTTPClient.h"
 #import "Reachability.h"
+
+#import "IDNFeedParser.h"

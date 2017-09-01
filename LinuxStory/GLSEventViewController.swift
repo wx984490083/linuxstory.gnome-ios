@@ -11,10 +11,18 @@ import UIKit
 /// 活动页面
 class GLSEventViewController: UIViewController {
 
+    let sourceUrl = "https://linuxstory.org/feed/?(category/activity/)"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        DispatchQueue.global().async { [weak self] in
+            let feeddata = IDNFeedParser.data(fromUrl: self?.sourceUrl)
+            let feedinfo = IDNFeedParser.feedInfo(with: feeddata!, fromUrl: self?.sourceUrl)
+            
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
