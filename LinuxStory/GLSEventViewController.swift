@@ -7,25 +7,49 @@
 //
 
 import UIKit
+import HandyJSON
 
 /// 活动页面
 class GLSEventViewController: UIViewController {
 
     let sourceUrl = "https://linuxstory.org/feed/?(category/activity/)"
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        
+        self.testLoadFeed()
+    }
+    
+    //读取rss信息示例
+    func testLoadFeed()
+    {
         DispatchQueue.global().async { [weak self] in
             let feeddata = IDNFeedParser.data(fromUrl: self?.sourceUrl)
-            let feedinfo = IDNFeedParser.feedInfo(with: feeddata!, fromUrl: self?.sourceUrl)
-            
+            //            let feedinfo = IDNFeedParser.feedInfo(with: feeddata!, fromUrl: self?.sourceUrl)
+            let items = IDNFeedParser.feedItems(with: feeddata!, fromUrl: self?.sourceUrl) as! [IDNFeedItem]?
+            if (items != nil)
+            {
+                for item in items!
+                {
+                    NSLog("title:%@", item.title)
+                    NSLog("author:%@", item.author)
+                    NSLog("identifier:%@", item.identifier)
+                    NSLog("link:%@", item.link)
+                    NSLog("date:%@", item.date.description)
+                    
+                    //updated字段为空
+//                    NSLog("updated:%@", item.updated.description)
+                    
+                    NSLog("summary:%@", item.summary)
+                    NSLog("content:%@", item.content)
+                }
+            }
             
         }
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
