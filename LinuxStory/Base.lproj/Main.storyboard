@@ -123,6 +123,7 @@
                             <constraint firstItem="h1L-xn-5jv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z1Q-aV-po8"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="codeField" destination="tai-hL-ExF" id="eZq-XJ-Y9l"/>
                         <outlet property="getCodeButton" destination="ZgL-td-FWZ" id="Q5D-K5-hyf"/>

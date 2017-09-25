@@ -10,7 +10,8 @@ import UIKit
 import HandyJSON
 
 /// 活动页面
-class GLSEventViewController: UIViewController {
+class GLSEventViewController: UIViewController
+{
 
     let sourceUrl = "https://linuxstory.org/feed/?(category/activity/)"
     
@@ -26,10 +27,10 @@ class GLSEventViewController: UIViewController {
         DispatchQueue.global().async { [weak self] in
             let feeddata = IDNFeedParser.data(fromUrl: self?.sourceUrl)
             //            let feedinfo = IDNFeedParser.feedInfo(with: feeddata!, fromUrl: self?.sourceUrl)
-            let items = IDNFeedParser.feedItems(with: feeddata!, fromUrl: self?.sourceUrl) as! [IDNFeedItem]?
-            if (items != nil)
+            
+            if let items = IDNFeedParser.feedItems(with: feeddata!, fromUrl: self?.sourceUrl) as! [IDNFeedItem]?
             {
-                for item in items!
+                for item in items
                 {
                     NSLog("title:%@", item.title)
                     NSLog("author:%@", item.author)
