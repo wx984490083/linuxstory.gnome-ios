@@ -11,12 +11,14 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate
 {
+    static var glsAppDelegate = nil as AppDelegate?
+
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
-        glsAppDelegate = self
+        AppDelegate.glsAppDelegate = self
         
         return true
     }
@@ -58,6 +60,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     }
 }
 
-var glsAppDelegate = nil as AppDelegate?
 
 

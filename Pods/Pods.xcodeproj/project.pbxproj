@@ -137,7 +137,7 @@
 		4EFBF108F22D2C4AB6EF7B090C7ADF2D /* Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Serializer.swift; path = Source/Serializer.swift; sourceTree = "<group>"; };
 		5084C54D8E11DEDC91E2B2788D869927 /* fftoast_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_success.png; path = FFToast/Assets/fftoast_success.png; sourceTree = "<group>"; };
 		551CA04E20F3EC6A51B1C0EAB0F3C74F /* fftoast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success@2x.png"; path = "FFToast/Assets/fftoast_success@2x.png"; sourceTree = "<group>"; };
-		55ED3D5FB5EFB44C2D9660CBBF894982 /* Pods-LinuxStory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LinuxStory.modulemap"; sourceTree = "<group>"; };
+		55ED3D5FB5EFB44C2D9660CBBF894982 /* Pods-LinuxStory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LinuxStory.modulemap"; sourceTree = "<group>"; };
 		57F8E73E960092FCA795786031FD5855 /* fftoast_dismiss@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_dismiss@3x.png"; path = "FFToast/Assets/fftoast_dismiss@3x.png"; sourceTree = "<group>"; };
 		58944855875648E244850E4CBC8C6A74 /* fftoast_error_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_error_highlight.png; path = FFToast/Assets/fftoast_error_highlight.png; sourceTree = "<group>"; };
 		5E2801A7C142F759156A723EC5F6D4E6 /* fftoast_warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning@3x.png"; path = "FFToast/Assets/fftoast_warning@3x.png"; sourceTree = "<group>"; };
@@ -148,14 +148,14 @@
 		68EE052C8AD717D31B26B6B72A547BFE /* fftoast_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error@3x.png"; path = "FFToast/Assets/fftoast_error@3x.png"; sourceTree = "<group>"; };
 		6E1C831D3B893FAA1945949720F1FBEF /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Source/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
 		6F8888F00CBDCF5193C58FFA5C60EA74 /* HandyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyJSON-prefix.pch"; sourceTree = "<group>"; };
-		70442540E74F4AF62E205F32823BD569 /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinuxStory.framework; path = "Pods-LinuxStory.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70442540E74F4AF62E205F32823BD569 /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinuxStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D0BAA28CD8AECC50CD954DFB915F1D /* Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = Source/Properties.swift; sourceTree = "<group>"; };
 		72AAC8C66C6FED50E912A482EB42CA39 /* Deserializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deserializer.swift; path = Source/Deserializer.swift; sourceTree = "<group>"; };
 		736858E3D33D17B141FBBA9FEABF55E1 /* NominalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NominalType.swift; path = Source/NominalType.swift; sourceTree = "<group>"; };
 		740EBA0447101E6476C7EC0805BB9C42 /* FFToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFToast-dummy.m"; sourceTree = "<group>"; };
 		7855AC8C5AA5C7BC81B3D89DCCCE3920 /* fftoast_warning_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning_highlight@3x.png"; path = "FFToast/Assets/fftoast_warning_highlight@3x.png"; sourceTree = "<group>"; };
-		786B15B1756989EA170F18A0BBA28679 /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HandyJSON.framework; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C633B3AB860CE6AE22A666D31578C42 /* FFToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FFToast.modulemap; sourceTree = "<group>"; };
+		786B15B1756989EA170F18A0BBA28679 /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C633B3AB860CE6AE22A666D31578C42 /* FFToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FFToast.modulemap; sourceTree = "<group>"; };
 		7FB07E0E33F856F8D941E166B9C1B8E1 /* NSString+FFToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FFToast.m"; path = "FFToast/Category/NSString+FFToast.m"; sourceTree = "<group>"; };
 		839F4F0FA1D490819B56EB8AA2B146BE /* Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocol.swift; path = Source/Protocol.swift; sourceTree = "<group>"; };
 		8528B84EB81D9DFE796A1667205D8155 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Source/DateTransform.swift; sourceTree = "<group>"; };
@@ -166,15 +166,15 @@
 		90B279F4FA51F6F5488973E8834B46B8 /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = Source/Metadata.swift; sourceTree = "<group>"; };
 		913F800BC84D476D173694BD4B9B6B6A /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Source/TransformType.swift; sourceTree = "<group>"; };
 		920D3ADD8F3A6C8D9D2A1FF3BB76C9CE /* Pods-LinuxStory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinuxStory-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94373F56955346D34DF85A1689FEDCD8 /* HandyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HandyJSON.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94373F56955346D34DF85A1689FEDCD8 /* HandyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HandyJSON.modulemap; sourceTree = "<group>"; };
 		966B81A434BF8A6BC8E0D7FE107941E2 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Configuration.swift; sourceTree = "<group>"; };
 		97933A12BFEE363F6942169093A6D6BE /* NSString+FFToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FFToast.h"; path = "FFToast/Category/NSString+FFToast.h"; sourceTree = "<group>"; };
 		992307D9AEE27A9DF8D716F96FEC9A76 /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Source/DataTransform.swift; sourceTree = "<group>"; };
 		9A597A98B8D619231D4A20045E4B854F /* fftoast_info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info@2x.png"; path = "FFToast/Assets/fftoast_info@2x.png"; sourceTree = "<group>"; };
 		9D6550DC518690D2EAA317BB79D6CB6C /* HandyJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HandyJSON.h; path = Source/HandyJSON.h; sourceTree = "<group>"; };
 		9E37584CDD912D13A1F5F22BD03D3141 /* fftoast_info_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info_highlight@3x.png"; path = "FFToast/Assets/fftoast_info_highlight@3x.png"; sourceTree = "<group>"; };
-		A84B71CF23651625DF762908003DAC54 /* FFToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FFToast.bundle; path = FFToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84B71CF23651625DF762908003DAC54 /* FFToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C9A5237AFF0F7C9F99FFCE0DE487E7 /* fftoast_warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning@2x.png"; path = "FFToast/Assets/fftoast_warning@2x.png"; sourceTree = "<group>"; };
 		B330768A1167E038D2E34B3BE9350310 /* FFCentreToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFCentreToastView.h; path = FFToast/Classes/FFCentreToastView.h; sourceTree = "<group>"; };
 		B91B3EA2BD2A9EA50FE1D298C875D2AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		E1180EE65752F401919074D7E79B3114 /* fftoast_info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_info.png; path = FFToast/Assets/fftoast_info.png; sourceTree = "<group>"; };
 		E190C5138E2A00FF7568D5ABE8CE6551 /* fftoast_dismiss.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_dismiss.png; path = FFToast/Assets/fftoast_dismiss.png; sourceTree = "<group>"; };
 		E5B3ABDC94E50201E1D79FAF9E55F7C6 /* FFCentreToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFCentreToastView.m; path = FFToast/Classes/FFCentreToastView.m; sourceTree = "<group>"; };
-		E738978BA31607E5A52F609531739E53 /* FFToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFToast.framework; path = FFToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E738978BA31607E5A52F609531739E53 /* FFToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E741A543887829F3836156F927C23781 /* OtherExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OtherExtension.swift; path = Source/OtherExtension.swift; sourceTree = "<group>"; };
 		E8B30EB73E889BB8EE09619DAFD59319 /* FFToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFToast.h; path = FFToast/Classes/FFToast.h; sourceTree = "<group>"; };
 		ED696D6662A031105611952ACF07F789 /* fftoast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success@3x.png"; path = "FFToast/Assets/fftoast_success@3x.png"; sourceTree = "<group>"; };
@@ -269,7 +269,6 @@
 				FAA1F48BE087F7A35A229C514D19E809 /* URLTransform.swift */,
 				F6A03D66F16A3E80A6BF1DAD79E5DADA /* Support Files */,
 			);
-			name = HandyJSON;
 			path = HandyJSON;
 			sourceTree = "<group>";
 		};
@@ -412,7 +411,6 @@
 				E15F62E93F743C66F97494A129066FA2 /* Resources */,
 				842DD771371899FB235055E7CE84453B /* Support Files */,
 			);
-			name = FFToast;
 			path = FFToast;
 			sourceTree = "<group>";
 		};
@@ -546,7 +544,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -709,7 +707,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -717,15 +717,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -775,7 +781,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -783,14 +791,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -804,6 +818,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
