@@ -22,6 +22,7 @@ static NSString* eventFeedURL = @"https://linuxstory.org/feed/?(category/activit
 {
     [super viewDidLoad];
     [self testLoadFeed];
+    
 }
 
 //读取rss信息示例

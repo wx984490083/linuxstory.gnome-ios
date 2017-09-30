@@ -34,7 +34,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="getCodeButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I0e-Vi-oTS"/>
+                                    <action selector="getCodeButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gbT-aG-6z8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1L-xn-5jv">
@@ -71,7 +71,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="visitorButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S8q-En-bq6"/>
+                                    <action selector="visitorButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kI3-Fc-VQQ"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z3k-43-XCB">
@@ -90,7 +90,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="loginButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NI6-dS-HsJ"/>
+                                            <action selector="loginButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VUR-c5-VJ5"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -130,15 +130,15 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
-                        <outlet property="codeField" destination="tai-hL-ExF" id="U54-i7-Fls"/>
-                        <outlet property="getCodeButton" destination="ZgL-td-FWZ" id="gmy-IN-nTf"/>
-                        <outlet property="loginButton" destination="kIG-yO-WZT" id="enC-bV-qmu"/>
-                        <outlet property="visitorButton" destination="baJ-Oe-lZT" id="fAk-5E-zBZ"/>
+                        <outlet property="codeField" destination="tai-hL-ExF" id="x38-H3-sWM"/>
+                        <outlet property="getCodeButton" destination="ZgL-td-FWZ" id="Qp5-y2-d5j"/>
+                        <outlet property="loginButton" destination="kIG-yO-WZT" id="GH1-OM-knY"/>
+                        <outlet property="visitorButton" destination="baJ-Oe-lZT" id="hcT-lj-8a0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-44" y="-141"/>
+            <point key="canvasLocation" x="121" y="-433"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="jEv-1D-Gea">
