@@ -2,6 +2,8 @@ platform:ios,'8.0'
 
 use_frameworks!
 target 'LinuxStory' do
-  pod 'HandyJSON', '~>1.7.2'
+  pod 'SVProgressHUD', '~> 2.0.3'
+  pod 'SDWebImage', '~> 3.7.3'
+  pod 'MJExtension', '~> 3.0.12'
   pod 'FFToast'
 end
