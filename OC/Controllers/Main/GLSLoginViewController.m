@@ -8,6 +8,10 @@
 
 #import "GLSLoginViewController.h"
 #import "LinuxStory-Swift.h"
+#import "HTTPClient.h"
+#import <MJExtension/MJExtension.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+
 
 @interface GLSLoginViewController ()
 
@@ -37,8 +41,22 @@
 
 -(IBAction)loginButtonTouched:(UIButton*)sender
 {
-    //TODO: 登陆
+    NSString *code = self.codeField.text;
+    if (!code||code.length == 0) {
+        return;
+    }
+    NSDictionary *body = @{@"code":code};
     
+    //TODO: 登陆
+    [[HTTPClient sharedInstance] postWithURL:@"http://gnome.liumax.com/ticket/getTicketInfoByCode" headers:nil httpBody:[body mj_JSONData] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        if (!error&&response) {
+            
+        }else{
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [SVProgressHUD showErrorWithStatus:@"an error code"];
+            });
+        }
+    }];
 }
 
 -(IBAction)visitorButtonTouched:(UIButton*)sender

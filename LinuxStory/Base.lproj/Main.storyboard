@@ -130,15 +130,15 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
-                        <outlet property="codeField" destination="tai-hL-ExF" id="eZq-XJ-Y9l"/>
-                        <outlet property="getCodeButton" destination="ZgL-td-FWZ" id="Q5D-K5-hyf"/>
-                        <outlet property="loginButton" destination="kIG-yO-WZT" id="TBp-cS-mf9"/>
-                        <outlet property="visitorButton" destination="baJ-Oe-lZT" id="Q98-4S-Scg"/>
+                        <outlet property="codeField" destination="tai-hL-ExF" id="U54-i7-Fls"/>
+                        <outlet property="getCodeButton" destination="ZgL-td-FWZ" id="gmy-IN-nTf"/>
+                        <outlet property="loginButton" destination="kIG-yO-WZT" id="enC-bV-qmu"/>
+                        <outlet property="visitorButton" destination="baJ-Oe-lZT" id="fAk-5E-zBZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10.4" y="116.49175412293854"/>
+            <point key="canvasLocation" x="-44" y="-141"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="jEv-1D-Gea">
@@ -187,13 +187,28 @@
                     <view key="view" contentMode="scaleToFill" id="Eaw-UO-hKI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="R9R-k4-bIZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="R9R-k4-bIZ" firstAttribute="leading" secondItem="Eaw-UO-hKI" secondAttribute="leading" id="Hmb-qU-nkB"/>
+                            <constraint firstItem="R9R-k4-bIZ" firstAttribute="top" secondItem="UoH-j3-tGR" secondAttribute="bottom" id="MO2-7q-rZc"/>
+                            <constraint firstItem="saK-nr-Niw" firstAttribute="top" secondItem="R9R-k4-bIZ" secondAttribute="bottom" id="dT8-EY-Xbk"/>
+                            <constraint firstAttribute="trailing" secondItem="R9R-k4-bIZ" secondAttribute="trailing" id="sjj-9V-UkX"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VVb-FJ-9Wu"/>
+                    <connections>
+                        <outlet property="tableView" destination="R9R-k4-bIZ" id="peb-64-Q9q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BQt-IO-gGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-433" y="2893"/>
+            <point key="canvasLocation" x="-434.39999999999998" y="2892.5037481259374"/>
         </scene>
         <!--Nome View Controller-->
         <scene sceneID="XQc-Bz-Gno">

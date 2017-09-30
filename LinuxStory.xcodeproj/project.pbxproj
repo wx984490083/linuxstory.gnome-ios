@@ -17,12 +17,6 @@
 		0344057F1F57FE8500DE71A6 /* IDNFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 034405791F57FE8500DE71A6 /* IDNFeedParser.m */; };
 		034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */; };
 		034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057D1F57FE8500DE71A6 /* NSString+HTML.m */; };
-		03EF41F01F7DE4E30070E258 /* GLSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF41EF1F7DE4E30070E258 /* GLSLoginViewController.m */; };
-		03EF41F31F7DE4F00070E258 /* GLSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF41F21F7DE4F00070E258 /* GLSInfoViewController.m */; };
-		03EF41F61F7DE4FC0070E258 /* GLSGNomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF41F51F7DE4FC0070E258 /* GLSGNomeViewController.m */; };
-		03EF41F91F7DE5080070E258 /* GLSPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF41F81F7DE5080070E258 /* GLSPersonalViewController.m */; };
-		03EF41FC1F7DE5190070E258 /* GLSEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF41FB1F7DE5190070E258 /* GLSEventViewController.m */; };
-		03EF41FF1F7DE5410070E258 /* GLSMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF41FE1F7DE5410070E258 /* GLSMainTabViewController.m */; };
 		0559CF5115F3ABA80DA7D8C5 /* Pods_LinuxStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,20 +44,21 @@
 		0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
 		0344057C1F57FE8500DE71A6 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
 		0344057D1F57FE8500DE71A6 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
-		03EF41EE1F7DE4E30070E258 /* GLSLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSLoginViewController.h; sourceTree = "<group>"; };
-		03EF41EF1F7DE4E30070E258 /* GLSLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSLoginViewController.m; sourceTree = "<group>"; };
-		03EF41F11F7DE4F00070E258 /* GLSInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSInfoViewController.h; sourceTree = "<group>"; };
-		03EF41F21F7DE4F00070E258 /* GLSInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSInfoViewController.m; sourceTree = "<group>"; };
-		03EF41F41F7DE4FC0070E258 /* GLSGNomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSGNomeViewController.h; sourceTree = "<group>"; };
-		03EF41F51F7DE4FC0070E258 /* GLSGNomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSGNomeViewController.m; sourceTree = "<group>"; };
-		03EF41F71F7DE5080070E258 /* GLSPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSPersonalViewController.h; sourceTree = "<group>"; };
-		03EF41F81F7DE5080070E258 /* GLSPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSPersonalViewController.m; sourceTree = "<group>"; };
-		03EF41FA1F7DE5190070E258 /* GLSEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSEventViewController.h; sourceTree = "<group>"; };
-		03EF41FB1F7DE5190070E258 /* GLSEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSEventViewController.m; sourceTree = "<group>"; };
-		03EF41FD1F7DE5410070E258 /* GLSMainTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSMainTabViewController.h; sourceTree = "<group>"; };
-		03EF41FE1F7DE5410070E258 /* GLSMainTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSMainTabViewController.m; sourceTree = "<group>"; };
 		368F10F37CA7E6A79EB482F9 /* Pods-LinuxStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinuxStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinuxStory/Pods-LinuxStory.debug.xcconfig"; sourceTree = "<group>"; };
 		3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinuxStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A058601F7F73AF006734ED /* GLS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLS-Prefix.pch"; sourceTree = "<group>"; };
+		F0A058741F7F79CE006734ED /* GLSEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSEventViewController.h; sourceTree = "<group>"; };
+		F0A058751F7F79CE006734ED /* GLSEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSEventViewController.m; sourceTree = "<group>"; };
+		F0A058771F7F79CE006734ED /* GLSGNomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSGNomeViewController.h; sourceTree = "<group>"; };
+		F0A058781F7F79CE006734ED /* GLSGNomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSGNomeViewController.m; sourceTree = "<group>"; };
+		F0A0587A1F7F79CE006734ED /* GLSInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSInfoViewController.h; sourceTree = "<group>"; };
+		F0A0587B1F7F79CE006734ED /* GLSInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSInfoViewController.m; sourceTree = "<group>"; };
+		F0A0587D1F7F79CE006734ED /* GLSLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSLoginViewController.h; sourceTree = "<group>"; };
+		F0A0587E1F7F79CE006734ED /* GLSLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSLoginViewController.m; sourceTree = "<group>"; };
+		F0A0587F1F7F79CE006734ED /* GLSMainTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSMainTabViewController.h; sourceTree = "<group>"; };
+		F0A058801F7F79CE006734ED /* GLSMainTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSMainTabViewController.m; sourceTree = "<group>"; };
+		F0A058821F7F79CE006734ED /* GLSPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSPersonalViewController.h; sourceTree = "<group>"; };
+		F0A058831F7F79CE006734ED /* GLSPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSPersonalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +111,7 @@
 				03293B831F5799B600B5A180 /* Assets.xcassets */,
 				03293B851F5799B600B5A180 /* LaunchScreen.storyboard */,
 				03293B881F5799B600B5A180 /* Info.plist */,
+				F0A058601F7F73AF006734ED /* GLS-Prefix.pch */,
 			);
 			name = SupportFiles;
 			sourceTree = "<group>";
@@ -157,18 +153,9 @@
 		03EF41ED1F7DE3CC0070E258 /* OC */ = {
 			isa = PBXGroup;
 			children = (
-				03EF41EE1F7DE4E30070E258 /* GLSLoginViewController.h */,
-				03EF41EF1F7DE4E30070E258 /* GLSLoginViewController.m */,
-				03EF41F11F7DE4F00070E258 /* GLSInfoViewController.h */,
-				03EF41F21F7DE4F00070E258 /* GLSInfoViewController.m */,
-				03EF41F41F7DE4FC0070E258 /* GLSGNomeViewController.h */,
-				03EF41F51F7DE4FC0070E258 /* GLSGNomeViewController.m */,
-				03EF41F71F7DE5080070E258 /* GLSPersonalViewController.h */,
-				03EF41F81F7DE5080070E258 /* GLSPersonalViewController.m */,
-				03EF41FA1F7DE5190070E258 /* GLSEventViewController.h */,
-				03EF41FB1F7DE5190070E258 /* GLSEventViewController.m */,
-				03EF41FD1F7DE5410070E258 /* GLSMainTabViewController.h */,
-				03EF41FE1F7DE5410070E258 /* GLSMainTabViewController.m */,
+				F0A058721F7F79CE006734ED /* Controllers */,
+				F0A0588A1F7F79CE006734ED /* Models */,
+				F0A058841F7F79CE006734ED /* Views */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -188,6 +175,159 @@
 				3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0A058721F7F79CE006734ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0A058731F7F79CE006734ED /* Event */,
+				F0A058761F7F79CE006734ED /* Hot */,
+				F0A058791F7F79CE006734ED /* Info */,
+				F0A0587C1F7F79CE006734ED /* Main */,
+				F0A058811F7F79CE006734ED /* Me */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0A058731F7F79CE006734ED /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				F0A058741F7F79CE006734ED /* GLSEventViewController.h */,
+				F0A058751F7F79CE006734ED /* GLSEventViewController.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		F0A058761F7F79CE006734ED /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				F0A058771F7F79CE006734ED /* GLSGNomeViewController.h */,
+				F0A058781F7F79CE006734ED /* GLSGNomeViewController.m */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		F0A058791F7F79CE006734ED /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				F0A0587A1F7F79CE006734ED /* GLSInfoViewController.h */,
+				F0A0587B1F7F79CE006734ED /* GLSInfoViewController.m */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		F0A0587C1F7F79CE006734ED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F0A0587D1F7F79CE006734ED /* GLSLoginViewController.h */,
+				F0A0587E1F7F79CE006734ED /* GLSLoginViewController.m */,
+				F0A0587F1F7F79CE006734ED /* GLSMainTabViewController.h */,
+				F0A058801F7F79CE006734ED /* GLSMainTabViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F0A058811F7F79CE006734ED /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F0A058821F7F79CE006734ED /* GLSPersonalViewController.h */,
+				F0A058831F7F79CE006734ED /* GLSPersonalViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F0A058841F7F79CE006734ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0A058851F7F79CE006734ED /* Event */,
+				F0A058861F7F79CE006734ED /* Hot */,
+				F0A058871F7F79CE006734ED /* Info */,
+				F0A058881F7F79CE006734ED /* Main */,
+				F0A058891F7F79CE006734ED /* Me */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0A058851F7F79CE006734ED /* Event */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		F0A058861F7F79CE006734ED /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		F0A058871F7F79CE006734ED /* Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		F0A058881F7F79CE006734ED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F0A058891F7F79CE006734ED /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F0A0588A1F7F79CE006734ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0A0588B1F7F79CE006734ED /* Event */,
+				F0A0588C1F7F79CE006734ED /* Hot */,
+				F0A0588D1F7F79CE006734ED /* Info */,
+				F0A0588E1F7F79CE006734ED /* Main */,
+				F0A0588F1F7F79CE006734ED /* Me */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F0A0588B1F7F79CE006734ED /* Event */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		F0A0588C1F7F79CE006734ED /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		F0A0588D1F7F79CE006734ED /* Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		F0A0588E1F7F79CE006734ED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F0A0588F1F7F79CE006734ED /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +457,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -328,18 +468,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0344056D1F57BCBA00DE71A6 /* HTTPClient.m in Sources */,
-				03EF41F01F7DE4E30070E258 /* GLSLoginViewController.m in Sources */,
 				0344056E1F57BCBA00DE71A6 /* Reachability.m in Sources */,
-				03EF41F31F7DE4F00070E258 /* GLSInfoViewController.m in Sources */,
-				03EF41FC1F7DE5190070E258 /* GLSEventViewController.m in Sources */,
 				034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */,
 				034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */,
 				03293B7D1F5799B600B5A180 /* AppDelegate.swift in Sources */,
-				03EF41FF1F7DE5410070E258 /* GLSMainTabViewController.m in Sources */,
 				0344057F1F57FE8500DE71A6 /* IDNFeedParser.m in Sources */,
 				0344057E1F57FE8500DE71A6 /* GTMNSString+HTML.m in Sources */,
-				03EF41F91F7DE5080070E258 /* GLSPersonalViewController.m in Sources */,
-				03EF41F61F7DE4FC0070E258 /* GLSGNomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
