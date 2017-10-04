@@ -50,7 +50,7 @@
     //TODO: 登陆
     [[HTTPClient sharedInstance] postWithURL:@"http://gnome.liumax.com/ticket/getTicketInfoByCode" headers:nil httpBody:[body mj_JSONData] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (!error&&response) {
-            
+            [AppDelegate.glsAppDelegate switchToMainPage];
         }else{
             dispatch_async(dispatch_get_main_queue(), ^{
                 [SVProgressHUD showErrorWithStatus:@"an error code"];

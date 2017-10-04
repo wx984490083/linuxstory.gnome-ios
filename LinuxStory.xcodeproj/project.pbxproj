@@ -24,6 +24,7 @@
 		F07D32531F7F8A2B00EF3649 /* GLSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D323E1F7F8A2B00EF3649 /* GLSLoginViewController.m */; };
 		F07D32541F7F8A2B00EF3649 /* GLSMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32401F7F8A2B00EF3649 /* GLSMainTabViewController.m */; };
 		F07D32551F7F8A2B00EF3649 /* GLSPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32431F7F8A2B00EF3649 /* GLSPersonalViewController.m */; };
+		F07D325A1F7F9D5500EF3649 /* GLSUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32591F7F9D5500EF3649 /* GLSUserInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		F07D32421F7F8A2B00EF3649 /* GLSPersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSPersonalViewController.h; sourceTree = "<group>"; };
 		F07D32431F7F8A2B00EF3649 /* GLSPersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSPersonalViewController.m; sourceTree = "<group>"; };
 		F07D32561F7F8BCB00EF3649 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F07D32581F7F9D5500EF3649 /* GLSUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSUserInfoModel.h; sourceTree = "<group>"; };
+		F07D32591F7F9D5500EF3649 /* GLSUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSUserInfoModel.m; sourceTree = "<group>"; };
 		F0A058601F7F73AF006734ED /* GLS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLS-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -327,6 +330,8 @@
 		F07D324E1F7F8A2B00EF3649 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F07D32581F7F9D5500EF3649 /* GLSUserInfoModel.h */,
+				F07D32591F7F9D5500EF3649 /* GLSUserInfoModel.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 				0344056D1F57BCBA00DE71A6 /* HTTPClient.m in Sources */,
 				0344056E1F57BCBA00DE71A6 /* Reachability.m in Sources */,
 				F07D32501F7F8A2B00EF3649 /* GLSEventViewController.m in Sources */,
+				F07D325A1F7F9D5500EF3649 /* GLSUserInfoModel.m in Sources */,
 				F07D32511F7F8A2B00EF3649 /* GLSGNomeViewController.m in Sources */,
 				034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */,
 				F07D32521F7F8A2B00EF3649 /* GLSInfoViewController.m in Sources */,
