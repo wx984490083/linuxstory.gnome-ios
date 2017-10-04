@@ -19,6 +19,5 @@
 @property (nonatomic, strong) NSString *userOrderId;
 @property (nonatomic, strong) NSString *totalAmout;
 @property (nonatomic, strong) NSString *paidAmount;
-@property ( )
 
 @end
