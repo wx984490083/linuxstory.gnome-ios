@@ -7,8 +7,18 @@
 //
 
 #import "GLSPersonalViewController.h"
+#import "GLSUserInfoModel.h"
+#import "GLSUserInfoCell.h"
 
-@interface GLSPersonalViewController ()
+@interface GLSPersonalViewController () <UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UIImageView *headImageView;
+@property (weak, nonatomic) IBOutlet UILabel *nikeNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *userIdLabel;
+@property (weak, nonatomic) IBOutlet UIView *settingView;
+@property (weak, nonatomic) IBOutlet UITableView *userInfoTableView;
+
+@property (nonatomic, strong) NSArray *tints;
+@property (nonatomic, strong) NSArray *contents;
 
 @end
 
@@ -17,21 +27,40 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationController.navigationBar.barTintColor = Hex(0xFC361D);
+    self.title = @"我的";
+    NSDictionary *titleAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+    self.view.backgroundColor = klightGray;
+    [self.navigationController.navigationBar setTitleTextAttributes:titleAttributes];
+    [self.navigationController.navigationBar setValue:@0 forKeyPath:@"backgroundView.alpha"];
+//    [self.userInfoTableView dequeueReusableCellWithIdentifier:@""];
+    self.userInfoTableView.delegate = self;
+    self.userInfoTableView.dataSource = self;
+    self.userInfoTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.userInfoTableView.scrollEnabled = NO;
+    self.userInfoTableView.allowsSelection = NO;
+    self.tints = @[@"姓名：",@"工作地址：",@"Email：",@"电话：",@"订单ID：",@"已付金额：",@"折扣金额：",@"退换金额"];
+    [self.userInfoTableView reloadData];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.tints.count;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return self.userInfoTableView.frame.size.height/8.0;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    GLSUserInfoCell *cell = [GLSUserInfoCell cellWithTableView:tableView];
+    cell.tintLabel.text = self.tints[indexPath.row];
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+}
 
 @end

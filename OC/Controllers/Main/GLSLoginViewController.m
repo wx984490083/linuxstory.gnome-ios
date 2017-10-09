@@ -11,7 +11,7 @@
 #import "HTTPClient.h"
 #import <MJExtension/MJExtension.h>
 #import <SVProgressHUD/SVProgressHUD.h>
-
+#import "GLSUserInfoModel.h"
 
 @interface GLSLoginViewController ()
 
@@ -50,6 +50,7 @@
     //TODO: 登陆
     [[HTTPClient sharedInstance] postWithURL:@"http://gnome.liumax.com/ticket/getTicketInfoByCode" headers:nil httpBody:[body mj_JSONData] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (!error&&response) {
+//            GLSUserInfoModel *model = [GLSUserInfoModel yy_modelWithJSON:data[@"data"]];
             [AppDelegate.glsAppDelegate switchToMainPage];
         }else{
             dispatch_async(dispatch_get_main_queue(), ^{

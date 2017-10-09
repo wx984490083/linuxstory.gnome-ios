@@ -18,6 +18,7 @@
 		034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */; };
 		034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057D1F57FE8500DE71A6 /* NSString+HTML.m */; };
 		0559CF5115F3ABA80DA7D8C5 /* Pods_LinuxStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */; };
+		F01E7D731F8B62F800F6A2E3 /* GLSUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01E7D721F8B62F800F6A2E3 /* GLSUserInfoCell.m */; };
 		F07D32501F7F8A2B00EF3649 /* GLSEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32351F7F8A2B00EF3649 /* GLSEventViewController.m */; };
 		F07D32511F7F8A2B00EF3649 /* GLSGNomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32381F7F8A2B00EF3649 /* GLSGNomeViewController.m */; };
 		F07D32521F7F8A2B00EF3649 /* GLSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D323B1F7F8A2B00EF3649 /* GLSInfoViewController.m */; };
@@ -53,6 +54,8 @@
 		0344057D1F57FE8500DE71A6 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
 		368F10F37CA7E6A79EB482F9 /* Pods-LinuxStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinuxStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinuxStory/Pods-LinuxStory.debug.xcconfig"; sourceTree = "<group>"; };
 		3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinuxStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01E7D711F8B62F800F6A2E3 /* GLSUserInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSUserInfoCell.h; sourceTree = "<group>"; };
+		F01E7D721F8B62F800F6A2E3 /* GLSUserInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSUserInfoCell.m; sourceTree = "<group>"; };
 		F07D32341F7F8A2B00EF3649 /* GLSEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSEventViewController.h; sourceTree = "<group>"; };
 		F07D32351F7F8A2B00EF3649 /* GLSEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSEventViewController.m; sourceTree = "<group>"; };
 		F07D32371F7F8A2B00EF3649 /* GLSGNomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSGNomeViewController.h; sourceTree = "<group>"; };
@@ -290,6 +293,8 @@
 		F07D32491F7F8A2B00EF3649 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				F01E7D711F8B62F800F6A2E3 /* GLSUserInfoCell.h */,
+				F01E7D721F8B62F800F6A2E3 /* GLSUserInfoCell.m */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -492,6 +497,7 @@
 				034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */,
 				03293B7D1F5799B600B5A180 /* AppDelegate.swift in Sources */,
 				F07D32551F7F8A2B00EF3649 /* GLSPersonalViewController.m in Sources */,
+				F01E7D731F8B62F800F6A2E3 /* GLSUserInfoCell.m in Sources */,
 				0344057F1F57FE8500DE71A6 /* IDNFeedParser.m in Sources */,
 				F07D32541F7F8A2B00EF3649 /* GLSMainTabViewController.m in Sources */,
 				0344057E1F57FE8500DE71A6 /* GTMNSString+HTML.m in Sources */,
@@ -639,6 +645,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5XTAE2D6E;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/tanpei/linuxstory.gnome-ios/LinuxStory/GLS-Prefix.pch";
 				INFOPLIST_FILE = LinuxStory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -660,6 +668,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5XTAE2D6E;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/tanpei/linuxstory.gnome-ios/LinuxStory/GLS-Prefix.pch";
 				INFOPLIST_FILE = LinuxStory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

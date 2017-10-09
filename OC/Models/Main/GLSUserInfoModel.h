@@ -13,11 +13,15 @@
 @property (nonatomic, strong) NSNumber *userCode;
 @property (nonatomic, strong) NSNumber *userId;
 @property (nonatomic, strong) NSString *userName;
+@property (nonatomic, strong) NSString *userNickName;
+@property (nonatomic, strong) NSString *userAvatar;
 @property (nonatomic, strong) NSString *userSite;
 @property (nonatomic, strong) NSString *userEmail;
 @property (nonatomic, strong) NSString *userPhone;
 @property (nonatomic, strong) NSString *userOrderId;
 @property (nonatomic, strong) NSString *totalAmout;
 @property (nonatomic, strong) NSString *paidAmount;
+@property (nonatomic, strong) NSString *discountAmount;
+@property (nonatomic, strong) NSString *refundedAmount;
 
 @end

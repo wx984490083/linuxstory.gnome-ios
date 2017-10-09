@@ -6,4 +6,5 @@ target 'LinuxStory' do
   pod 'SDWebImage', '~> 3.7.3'
   pod 'MJExtension', '~> 3.0.12'
   pod 'FFToast'
+  pod 'YYModel', '~> 1.0.4'
 end
