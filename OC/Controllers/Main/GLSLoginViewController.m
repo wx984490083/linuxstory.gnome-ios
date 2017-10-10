@@ -7,11 +7,11 @@
 //
 
 #import "GLSLoginViewController.h"
-#import "LinuxStory-Swift.h"
 #import "HTTPClient.h"
 #import <MJExtension/MJExtension.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 #import "GLSUserInfoModel.h"
+#import "AppDelegate.h"
 
 @interface GLSLoginViewController ()
 

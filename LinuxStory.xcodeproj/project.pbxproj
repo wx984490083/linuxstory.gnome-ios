@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03293B7D1F5799B600B5A180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03293B7C1F5799B600B5A180 /* AppDelegate.swift */; };
 		03293B821F5799B600B5A180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03293B801F5799B600B5A180 /* Main.storyboard */; };
 		03293B841F5799B600B5A180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03293B831F5799B600B5A180 /* Assets.xcassets */; };
 		03293B871F5799B600B5A180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03293B851F5799B600B5A180 /* LaunchScreen.storyboard */; };
@@ -17,13 +16,22 @@
 		0344057F1F57FE8500DE71A6 /* IDNFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 034405791F57FE8500DE71A6 /* IDNFeedParser.m */; };
 		034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */; };
 		034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057D1F57FE8500DE71A6 /* NSString+HTML.m */; };
+		0348141F1F8C87E800B3DE89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348141C1F8C87E800B3DE89 /* AppDelegate.m */; };
+		034814201F8C87E800B3DE89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348141E1F8C87E800B3DE89 /* main.m */; };
+		034814321F8C887F00B3DE89 /* GLSMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034814311F8C887F00B3DE89 /* GLSMainTabViewController.m */; };
+		0348143D1F8C89F300B3DE89 /* GLSFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034814231F8C887500B3DE89 /* GLSFieldViewController.m */; };
+		0348143E1F8C89F500B3DE89 /* GLSGNomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348142B1F8C887600B3DE89 /* GLSGNomeViewController.m */; };
+		0348143F1F8C89F700B3DE89 /* GLSNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034814291F8C887500B3DE89 /* GLSNewsViewController.m */; };
+		034814401F8C89F900B3DE89 /* GLSScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348142C1F8C887600B3DE89 /* GLSScheduleViewController.m */; };
+		034814411F8C89FB00B3DE89 /* GLSSponsorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034814261F8C887500B3DE89 /* GLSSponsorViewController.m */; };
+		034814421F8C89FD00B3DE89 /* GLSStaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348142D1F8C887600B3DE89 /* GLSStaffViewController.m */; };
+		034814431F8C8A0800B3DE89 /* FJSlidingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034814191F8C878200B3DE89 /* FJSlidingController.m */; };
+		034814441F8C8A0800B3DE89 /* SegmentTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348141B1F8C878200B3DE89 /* SegmentTapView.m */; };
 		0559CF5115F3ABA80DA7D8C5 /* Pods_LinuxStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */; };
 		F01E7D731F8B62F800F6A2E3 /* GLSUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01E7D721F8B62F800F6A2E3 /* GLSUserInfoCell.m */; };
 		F07D32501F7F8A2B00EF3649 /* GLSEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32351F7F8A2B00EF3649 /* GLSEventViewController.m */; };
-		F07D32511F7F8A2B00EF3649 /* GLSGNomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32381F7F8A2B00EF3649 /* GLSGNomeViewController.m */; };
 		F07D32521F7F8A2B00EF3649 /* GLSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D323B1F7F8A2B00EF3649 /* GLSInfoViewController.m */; };
 		F07D32531F7F8A2B00EF3649 /* GLSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D323E1F7F8A2B00EF3649 /* GLSLoginViewController.m */; };
-		F07D32541F7F8A2B00EF3649 /* GLSMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32401F7F8A2B00EF3649 /* GLSMainTabViewController.m */; };
 		F07D32551F7F8A2B00EF3649 /* GLSPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32431F7F8A2B00EF3649 /* GLSPersonalViewController.m */; };
 		F07D325A1F7F9D5500EF3649 /* GLSUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32591F7F9D5500EF3649 /* GLSUserInfoModel.m */; };
 /* End PBXBuildFile section */
@@ -31,7 +39,6 @@
 /* Begin PBXFileReference section */
 		00F3CD4D40A69F9F9A5109A6 /* Pods-LinuxStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinuxStory.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinuxStory/Pods-LinuxStory.release.xcconfig"; sourceTree = "<group>"; };
 		03293B791F5799B600B5A180 /* LinuxStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinuxStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03293B7C1F5799B600B5A180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03293B831F5799B600B5A180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03293B861F5799B600B5A180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03293B881F5799B600B5A180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,7 +46,6 @@
 		0344055D1F57B3CD00DE71A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0344055E1F57B42D00DE71A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		034405601F57B43A00DE71A6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		034405641F57BC7400DE71A6 /* LinuxStory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinuxStory-Bridging-Header.h"; sourceTree = "<group>"; };
 		034405691F57BCBA00DE71A6 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
 		0344056A1F57BCBA00DE71A6 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
 		0344056B1F57BCBA00DE71A6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -52,20 +58,40 @@
 		0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
 		0344057C1F57FE8500DE71A6 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
 		0344057D1F57FE8500DE71A6 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		034814181F8C878200B3DE89 /* FJSlidingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJSlidingController.h; sourceTree = "<group>"; };
+		034814191F8C878200B3DE89 /* FJSlidingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJSlidingController.m; sourceTree = "<group>"; };
+		0348141A1F8C878200B3DE89 /* SegmentTapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentTapView.h; sourceTree = "<group>"; };
+		0348141B1F8C878200B3DE89 /* SegmentTapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentTapView.m; sourceTree = "<group>"; };
+		0348141C1F8C87E800B3DE89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0348141D1F8C87E800B3DE89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0348141E1F8C87E800B3DE89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		034814231F8C887500B3DE89 /* GLSFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSFieldViewController.m; sourceTree = "<group>"; };
+		034814241F8C887500B3DE89 /* GLSNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSNewsViewController.h; sourceTree = "<group>"; };
+		034814251F8C887500B3DE89 /* GLSSponsorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSSponsorViewController.h; sourceTree = "<group>"; };
+		034814261F8C887500B3DE89 /* GLSSponsorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSSponsorViewController.m; sourceTree = "<group>"; };
+		034814271F8C887500B3DE89 /* GLSStaffViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSStaffViewController.h; sourceTree = "<group>"; };
+		034814281F8C887500B3DE89 /* GLSGNomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSGNomeViewController.h; sourceTree = "<group>"; };
+		034814291F8C887500B3DE89 /* GLSNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSNewsViewController.m; sourceTree = "<group>"; };
+		0348142A1F8C887600B3DE89 /* GLSScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSScheduleViewController.h; sourceTree = "<group>"; };
+		0348142B1F8C887600B3DE89 /* GLSGNomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSGNomeViewController.m; sourceTree = "<group>"; };
+		0348142C1F8C887600B3DE89 /* GLSScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSScheduleViewController.m; sourceTree = "<group>"; };
+		0348142D1F8C887600B3DE89 /* GLSStaffViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSStaffViewController.m; sourceTree = "<group>"; };
+		0348142F1F8C887600B3DE89 /* GLSFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSFieldViewController.h; sourceTree = "<group>"; };
+		034814301F8C887F00B3DE89 /* GLSMainTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSMainTabViewController.h; sourceTree = "<group>"; };
+		034814311F8C887F00B3DE89 /* GLSMainTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSMainTabViewController.m; sourceTree = "<group>"; };
+		0348143A1F8C89BD00B3DE89 /* GLSEventInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSEventInfoCell.h; sourceTree = "<group>"; };
+		0348143B1F8C89BD00B3DE89 /* GLSEventInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSEventInfoCell.m; sourceTree = "<group>"; };
+		0348143C1F8C89BD00B3DE89 /* GLSEventInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GLSEventInfoCell.xib; sourceTree = "<group>"; };
 		368F10F37CA7E6A79EB482F9 /* Pods-LinuxStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinuxStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinuxStory/Pods-LinuxStory.debug.xcconfig"; sourceTree = "<group>"; };
 		3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinuxStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01E7D711F8B62F800F6A2E3 /* GLSUserInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSUserInfoCell.h; sourceTree = "<group>"; };
 		F01E7D721F8B62F800F6A2E3 /* GLSUserInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSUserInfoCell.m; sourceTree = "<group>"; };
 		F07D32341F7F8A2B00EF3649 /* GLSEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSEventViewController.h; sourceTree = "<group>"; };
 		F07D32351F7F8A2B00EF3649 /* GLSEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSEventViewController.m; sourceTree = "<group>"; };
-		F07D32371F7F8A2B00EF3649 /* GLSGNomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSGNomeViewController.h; sourceTree = "<group>"; };
-		F07D32381F7F8A2B00EF3649 /* GLSGNomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSGNomeViewController.m; sourceTree = "<group>"; };
 		F07D323A1F7F8A2B00EF3649 /* GLSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSInfoViewController.h; sourceTree = "<group>"; };
 		F07D323B1F7F8A2B00EF3649 /* GLSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSInfoViewController.m; sourceTree = "<group>"; };
 		F07D323D1F7F8A2B00EF3649 /* GLSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSLoginViewController.h; sourceTree = "<group>"; };
 		F07D323E1F7F8A2B00EF3649 /* GLSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSLoginViewController.m; sourceTree = "<group>"; };
-		F07D323F1F7F8A2B00EF3649 /* GLSMainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSMainTabViewController.h; sourceTree = "<group>"; };
-		F07D32401F7F8A2B00EF3649 /* GLSMainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSMainTabViewController.m; sourceTree = "<group>"; };
 		F07D32421F7F8A2B00EF3649 /* GLSPersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSPersonalViewController.h; sourceTree = "<group>"; };
 		F07D32431F7F8A2B00EF3649 /* GLSPersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSPersonalViewController.m; sourceTree = "<group>"; };
 		F07D32561F7F8BCB00EF3649 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -89,6 +115,7 @@
 		03293B701F5799B600B5A180 = {
 			isa = PBXGroup;
 			children = (
+				034814161F8C878200B3DE89 /* OtherLib */,
 				03EF41ED1F7DE3CC0070E258 /* OC */,
 				03293B7B1F5799B600B5A180 /* LinuxStory */,
 				03293B7A1F5799B600B5A180 /* Products */,
@@ -108,8 +135,6 @@
 		03293B7B1F5799B600B5A180 /* LinuxStory */ = {
 			isa = PBXGroup;
 			children = (
-				03293B7C1F5799B600B5A180 /* AppDelegate.swift */,
-				034405641F57BC7400DE71A6 /* LinuxStory-Bridging-Header.h */,
 				03293B801F5799B600B5A180 /* Main.storyboard */,
 				034405751F57FE8500DE71A6 /* IDNFeedParser */,
 				034405611F57BA1600DE71A6 /* Network */,
@@ -121,6 +146,9 @@
 		034405531F57A21E00DE71A6 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				0348141D1F8C87E800B3DE89 /* AppDelegate.h */,
+				0348141C1F8C87E800B3DE89 /* AppDelegate.m */,
+				0348141E1F8C87E800B3DE89 /* main.m */,
 				03293B831F5799B600B5A180 /* Assets.xcassets */,
 				03293B851F5799B600B5A180 /* LaunchScreen.storyboard */,
 				03293B881F5799B600B5A180 /* Info.plist */,
@@ -161,6 +189,35 @@
 				0344057D1F57FE8500DE71A6 /* NSString+HTML.m */,
 			);
 			path = IDNFeedParser;
+			sourceTree = "<group>";
+		};
+		034814161F8C878200B3DE89 /* OtherLib */ = {
+			isa = PBXGroup;
+			children = (
+				034814171F8C878200B3DE89 /* FJSlidingController */,
+			);
+			path = OtherLib;
+			sourceTree = "<group>";
+		};
+		034814171F8C878200B3DE89 /* FJSlidingController */ = {
+			isa = PBXGroup;
+			children = (
+				034814181F8C878200B3DE89 /* FJSlidingController.h */,
+				034814191F8C878200B3DE89 /* FJSlidingController.m */,
+				0348141A1F8C878200B3DE89 /* SegmentTapView.h */,
+				0348141B1F8C878200B3DE89 /* SegmentTapView.m */,
+			);
+			path = FJSlidingController;
+			sourceTree = "<group>";
+		};
+		034814391F8C89BD00B3DE89 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				0348143A1F8C89BD00B3DE89 /* GLSEventInfoCell.h */,
+				0348143B1F8C89BD00B3DE89 /* GLSEventInfoCell.m */,
+				0348143C1F8C89BD00B3DE89 /* GLSEventInfoCell.xib */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 		03EF41ED1F7DE3CC0070E258 /* OC */ = {
@@ -215,8 +272,18 @@
 		F07D32361F7F8A2B00EF3649 /* Hot */ = {
 			isa = PBXGroup;
 			children = (
-				F07D32371F7F8A2B00EF3649 /* GLSGNomeViewController.h */,
-				F07D32381F7F8A2B00EF3649 /* GLSGNomeViewController.m */,
+				0348142F1F8C887600B3DE89 /* GLSFieldViewController.h */,
+				034814231F8C887500B3DE89 /* GLSFieldViewController.m */,
+				034814281F8C887500B3DE89 /* GLSGNomeViewController.h */,
+				0348142B1F8C887600B3DE89 /* GLSGNomeViewController.m */,
+				034814241F8C887500B3DE89 /* GLSNewsViewController.h */,
+				034814291F8C887500B3DE89 /* GLSNewsViewController.m */,
+				0348142A1F8C887600B3DE89 /* GLSScheduleViewController.h */,
+				0348142C1F8C887600B3DE89 /* GLSScheduleViewController.m */,
+				034814251F8C887500B3DE89 /* GLSSponsorViewController.h */,
+				034814261F8C887500B3DE89 /* GLSSponsorViewController.m */,
+				034814271F8C887500B3DE89 /* GLSStaffViewController.h */,
+				0348142D1F8C887600B3DE89 /* GLSStaffViewController.m */,
 			);
 			path = Hot;
 			sourceTree = "<group>";
@@ -233,10 +300,10 @@
 		F07D323C1F7F8A2B00EF3649 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				034814301F8C887F00B3DE89 /* GLSMainTabViewController.h */,
+				034814311F8C887F00B3DE89 /* GLSMainTabViewController.m */,
 				F07D323D1F7F8A2B00EF3649 /* GLSLoginViewController.h */,
 				F07D323E1F7F8A2B00EF3649 /* GLSLoginViewController.m */,
-				F07D323F1F7F8A2B00EF3649 /* GLSMainTabViewController.h */,
-				F07D32401F7F8A2B00EF3649 /* GLSMainTabViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -253,20 +320,13 @@
 		F07D32441F7F8A2B00EF3649 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F07D32451F7F8A2B00EF3649 /* Event */,
+				034814391F8C89BD00B3DE89 /* Event */,
 				F07D32461F7F8A2B00EF3649 /* Hot */,
 				F07D32471F7F8A2B00EF3649 /* Info */,
 				F07D32481F7F8A2B00EF3649 /* Main */,
 				F07D32491F7F8A2B00EF3649 /* Me */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		F07D32451F7F8A2B00EF3649 /* Event */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Event;
 			sourceTree = "<group>";
 		};
 		F07D32461F7F8A2B00EF3649 /* Hot */ = {
@@ -486,21 +546,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034814421F8C89FD00B3DE89 /* GLSStaffViewController.m in Sources */,
 				0344056D1F57BCBA00DE71A6 /* HTTPClient.m in Sources */,
 				0344056E1F57BCBA00DE71A6 /* Reachability.m in Sources */,
 				F07D32501F7F8A2B00EF3649 /* GLSEventViewController.m in Sources */,
 				F07D325A1F7F9D5500EF3649 /* GLSUserInfoModel.m in Sources */,
-				F07D32511F7F8A2B00EF3649 /* GLSGNomeViewController.m in Sources */,
 				034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */,
+				034814201F8C87E800B3DE89 /* main.m in Sources */,
 				F07D32521F7F8A2B00EF3649 /* GLSInfoViewController.m in Sources */,
+				034814321F8C887F00B3DE89 /* GLSMainTabViewController.m in Sources */,
 				F07D32531F7F8A2B00EF3649 /* GLSLoginViewController.m in Sources */,
 				034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */,
-				03293B7D1F5799B600B5A180 /* AppDelegate.swift in Sources */,
+				034814411F8C89FB00B3DE89 /* GLSSponsorViewController.m in Sources */,
 				F07D32551F7F8A2B00EF3649 /* GLSPersonalViewController.m in Sources */,
+				0348143E1F8C89F500B3DE89 /* GLSGNomeViewController.m in Sources */,
+				034814431F8C8A0800B3DE89 /* FJSlidingController.m in Sources */,
 				F01E7D731F8B62F800F6A2E3 /* GLSUserInfoCell.m in Sources */,
+				0348143D1F8C89F300B3DE89 /* GLSFieldViewController.m in Sources */,
+				034814441F8C8A0800B3DE89 /* SegmentTapView.m in Sources */,
 				0344057F1F57FE8500DE71A6 /* IDNFeedParser.m in Sources */,
-				F07D32541F7F8A2B00EF3649 /* GLSMainTabViewController.m in Sources */,
+				034814401F8C89F900B3DE89 /* GLSScheduleViewController.m in Sources */,
 				0344057E1F57FE8500DE71A6 /* GTMNSString+HTML.m in Sources */,
+				0348143F1F8C89F700B3DE89 /* GLSNewsViewController.m in Sources */,
+				0348141F1F8C87E800B3DE89 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +714,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5XTAE2D6E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/tanpei/linuxstory.gnome-ios/LinuxStory/GLS-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LinuxStory/GLS-Prefix.pch";
 				INFOPLIST_FILE = LinuxStory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -669,7 +737,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5XTAE2D6E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/tanpei/linuxstory.gnome-ios/LinuxStory/GLS-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LinuxStory/GLS-Prefix.pch";
 				INFOPLIST_FILE = LinuxStory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

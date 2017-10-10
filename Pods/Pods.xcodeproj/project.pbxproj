@@ -180,9 +180,9 @@
 
 /* Begin PBXFileReference section */
 		003A9CD3C47B0DE75E52D6435E4B9D80 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		01B337A54EFFB7AAB1EC52F96D1EA01C /* fftoast_warning_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_warning_highlight@3x.png"; path = "FFToast/Assets/fftoast_warning_highlight@3x.png"; sourceTree = "<group>"; };
+		01B337A54EFFB7AAB1EC52F96D1EA01C /* fftoast_warning_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning_highlight@3x.png"; path = "FFToast/Assets/fftoast_warning_highlight@3x.png"; sourceTree = "<group>"; };
 		0270999F4D9950E402E4881DBC504933 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		0374BA90BF624AC1C5C74937C20B5714 /* fftoast_dismiss@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_dismiss@3x.png"; path = "FFToast/Assets/fftoast_dismiss@3x.png"; sourceTree = "<group>"; };
+		0374BA90BF624AC1C5C74937C20B5714 /* fftoast_dismiss@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_dismiss@3x.png"; path = "FFToast/Assets/fftoast_dismiss@3x.png"; sourceTree = "<group>"; };
 		05D2A7CC1B692900664FEB9013339377 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		073FC15346938E94AAADC92704BAE6BC /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		077681F0B57A5E1AF5835161359300D9 /* UIImage+FFToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FFToast.m"; path = "FFToast/Category/UIImage+FFToast.m"; sourceTree = "<group>"; };
@@ -194,34 +194,34 @@
 		0E15D989E118E5C953EDDDC8A5D246D3 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
 		0EE244E84F3D1FD79D44B1037365B8A8 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
 		0F32BBBB97AE6F341B6FB2962D9FCF3B /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
-		102DE4C2B3C441E78FA851614B9A55FE /* fftoast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_success@2x.png"; path = "FFToast/Assets/fftoast_success@2x.png"; sourceTree = "<group>"; };
+		102DE4C2B3C441E78FA851614B9A55FE /* fftoast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success@2x.png"; path = "FFToast/Assets/fftoast_success@2x.png"; sourceTree = "<group>"; };
 		13F4692F841511DD7B2E30A726498B9C /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
 		1430775E98232FE0B48DFC1B6A19066B /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
 		1669CD647697A1E0381A213FE8703D42 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
 		173A0E5071FDFB1935FDFCF10B3BD3A0 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		17BCADA76943BD96CEBD8E8BC8E70912 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		18FBFCF7448380A031BA3280B700168B /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
-		1A28C45E0D8A6F8875A5BFF9FE724679 /* FFToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFToast.framework; path = FFToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AA0A8B13FC867F707CD59BDACC5499D /* fftoast_success_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_success_highlight.png; path = FFToast/Assets/fftoast_success_highlight.png; sourceTree = "<group>"; };
+		1A28C45E0D8A6F8875A5BFF9FE724679 /* FFToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA0A8B13FC867F707CD59BDACC5499D /* fftoast_success_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_success_highlight.png; path = FFToast/Assets/fftoast_success_highlight.png; sourceTree = "<group>"; };
 		1AC42C95CDD987591182DA1DDCD6DA96 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		1E6F35A39EBA3BF65C6F519A2BFD4B0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FB71420AA91E9347F19BEECA2161F23 /* UIImage+FFToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FFToast.h"; path = "FFToast/Category/UIImage+FFToast.h"; sourceTree = "<group>"; };
-		206780A3A245E32EEC502792647A4603 /* fftoast_success_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_success_highlight@2x.png"; path = "FFToast/Assets/fftoast_success_highlight@2x.png"; sourceTree = "<group>"; };
+		206780A3A245E32EEC502792647A4603 /* fftoast_success_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success_highlight@2x.png"; path = "FFToast/Assets/fftoast_success_highlight@2x.png"; sourceTree = "<group>"; };
 		236B664AB320D6D10644119930D26048 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		25CE011CA1D94319720A8F9A26EFC0D2 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		274DECD70FB4E96BC3838D41A43A94AE /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
-		276AA92F5604FF5070BA403FDBC62A41 /* fftoast_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_error@3x.png"; path = "FFToast/Assets/fftoast_error@3x.png"; sourceTree = "<group>"; };
+		276AA92F5604FF5070BA403FDBC62A41 /* fftoast_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error@3x.png"; path = "FFToast/Assets/fftoast_error@3x.png"; sourceTree = "<group>"; };
 		295FFEBAADA16B6119AEAA022A3EEC63 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
 		2BFC4CFE4068734644F2745CC729EBBA /* Pods-LinuxStory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinuxStory-dummy.m"; sourceTree = "<group>"; };
 		2E2734DE2BA362C2E34FBC601619788C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E864E3CA98A67B5682FA88B902C79F6 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		30A3CDCFD99705713850EC408D4A8093 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
-		30D09F1E75DCE81999CF5A20E99D8F70 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D09F1E75DCE81999CF5A20E99D8F70 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		337208DC0CC3D3D14CCB70AFDF225E8F /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
 		33EF6F1D311ECE369902FCDB340A481B /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
 		34A5E5DEC239790DE47B600C1D3A4B2D /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
 		3554CFBC9BA9429E24E2D0694F095FAA /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		35E87F035C0773DB98F6094C3A731863 /* fftoast_success_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_success_highlight@3x.png"; path = "FFToast/Assets/fftoast_success_highlight@3x.png"; sourceTree = "<group>"; };
+		35E87F035C0773DB98F6094C3A731863 /* fftoast_success_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success_highlight@3x.png"; path = "FFToast/Assets/fftoast_success_highlight@3x.png"; sourceTree = "<group>"; };
 		3849FFE969C92B9FA64E5EFCCF523617 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		39C1699BF6DFE4634B09A8688A442AF7 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
 		3C6C0C25F8B94D0B4ED118CE35DD0E0F /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
@@ -230,28 +230,28 @@
 		3E9CC1A2822EC0CBABAA908740A39774 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		3F8E89DD6FD69E2D6E9FA975F9CDAC48 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		3F9404245778173927277DEAD1C7A6A6 /* Pods-LinuxStory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinuxStory-acknowledgements.markdown"; sourceTree = "<group>"; };
-		400D450EB459E1FFF0EFD039E135E9E9 /* FFToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FFToast.bundle; path = FFToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		429ED396B9624A708DD82913E69AE49C /* fftoast_warning_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_warning_highlight.png; path = FFToast/Assets/fftoast_warning_highlight.png; sourceTree = "<group>"; };
+		400D450EB459E1FFF0EFD039E135E9E9 /* FFToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		429ED396B9624A708DD82913E69AE49C /* fftoast_warning_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_warning_highlight.png; path = FFToast/Assets/fftoast_warning_highlight.png; sourceTree = "<group>"; };
 		43A462F7FD708FD3506974FF29996C40 /* FFCentreToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFCentreToastView.h; path = FFToast/Classes/FFCentreToastView.h; sourceTree = "<group>"; };
 		4566F02B09BFDDC7E08E7923173AD885 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
-		4758BBED4AF9F7A045A368BEA3EBD654 /* fftoast_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_error@2x.png"; path = "FFToast/Assets/fftoast_error@2x.png"; sourceTree = "<group>"; };
+		4758BBED4AF9F7A045A368BEA3EBD654 /* fftoast_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error@2x.png"; path = "FFToast/Assets/fftoast_error@2x.png"; sourceTree = "<group>"; };
 		4AA1A325C94A27857A0B279B85B817CF /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
-		4AB22904AFBBFBF0E52F71F0950AEEEF /* fftoast_warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_warning@2x.png"; path = "FFToast/Assets/fftoast_warning@2x.png"; sourceTree = "<group>"; };
+		4AB22904AFBBFBF0E52F71F0950AEEEF /* fftoast_warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning@2x.png"; path = "FFToast/Assets/fftoast_warning@2x.png"; sourceTree = "<group>"; };
 		4CED1848BB4B05F1EE0EE37961C9CC0E /* NSString+FFToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FFToast.h"; path = "FFToast/Category/NSString+FFToast.h"; sourceTree = "<group>"; };
 		52EA9EFB727648E573C6043D53A58249 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		53D27AE419A06CAB4A8258ED93BC9CB0 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		54652823EA3996988322E2CA24F0CD56 /* fftoast_success.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_success.png; path = FFToast/Assets/fftoast_success.png; sourceTree = "<group>"; };
-		55ED3D5FB5EFB44C2D9660CBBF894982 /* Pods-LinuxStory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LinuxStory.modulemap"; sourceTree = "<group>"; };
+		54652823EA3996988322E2CA24F0CD56 /* fftoast_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_success.png; path = FFToast/Assets/fftoast_success.png; sourceTree = "<group>"; };
+		55ED3D5FB5EFB44C2D9660CBBF894982 /* Pods-LinuxStory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LinuxStory.modulemap"; sourceTree = "<group>"; };
 		5AD8B92531B4716E9787392157D02A48 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 		5AF4E1987A1DEFBD90C7133622084556 /* FFConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFConfig.h; path = FFToast/Classes/FFConfig.h; sourceTree = "<group>"; };
 		5EF7839664C02E6838FAC19A1003A40D /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
-		605F7409A32EFCF31DB5191221D8B550 /* fftoast_error_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_error_highlight.png; path = FFToast/Assets/fftoast_error_highlight.png; sourceTree = "<group>"; };
+		605F7409A32EFCF31DB5191221D8B550 /* fftoast_error_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_error_highlight.png; path = FFToast/Assets/fftoast_error_highlight.png; sourceTree = "<group>"; };
 		614CCF6A15A20F1594370087CBEFCF2B /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
-		65F8D6F60CEB90DD8BCAD68DE5CAB166 /* fftoast_info.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_info.png; path = FFToast/Assets/fftoast_info.png; sourceTree = "<group>"; };
+		65F8D6F60CEB90DD8BCAD68DE5CAB166 /* fftoast_info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_info.png; path = FFToast/Assets/fftoast_info.png; sourceTree = "<group>"; };
 		6771F0484A09BCEE963007F96B1B8D42 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		685DAADBA4175E980C8B760B9A5539BB /* fftoast_info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_info@2x.png"; path = "FFToast/Assets/fftoast_info@2x.png"; sourceTree = "<group>"; };
+		685DAADBA4175E980C8B760B9A5539BB /* fftoast_info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info@2x.png"; path = "FFToast/Assets/fftoast_info@2x.png"; sourceTree = "<group>"; };
 		686E7FE67F68EAA2BBB16CBBE89B8565 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		6C3F27EDB566A5DC806C992FEBF88120 /* fftoast_info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_info@3x.png"; path = "FFToast/Assets/fftoast_info@3x.png"; sourceTree = "<group>"; };
+		6C3F27EDB566A5DC806C992FEBF88120 /* fftoast_info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info@3x.png"; path = "FFToast/Assets/fftoast_info@3x.png"; sourceTree = "<group>"; };
 		6F28C8B0BD48B3C0D00401B2A8CF63AE /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		7088DEA2E5B2C62A0C4690657840FDFF /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
 		72A7D3DEF15FDCE9BB7C5158EBE44C57 /* NSString+FFToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FFToast.m"; path = "FFToast/Category/NSString+FFToast.m"; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 		7A9ED90BCE1970C751AF05C948B52D03 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
 		7AB3B8B03E7FA4C2EC5B3FF23D3985AE /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		7C7F81DE5BE52E0A55631A88AEC18554 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		7CCA4F758C985F17E6AC119611EACE7A /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		7CCA4F758C985F17E6AC119611EACE7A /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		7E94282A8B40952DBA1B478E1C225685 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		80392BB0D6EE24124AF1620E8E5B10BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8144639380E454861837D271B4ACE72D /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
@@ -273,17 +273,17 @@
 		879DD0141CE0207E893F12DA16BB03D5 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
 		8CA6B8D92DDF75DBFDF900731B8CBB32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8CD4BAA64435EB74E72E558AAA975BD5 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
-		8E83102E04531C94AD273147A8015BC9 /* fftoast_dismiss@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_dismiss@2x.png"; path = "FFToast/Assets/fftoast_dismiss@2x.png"; sourceTree = "<group>"; };
+		8E83102E04531C94AD273147A8015BC9 /* fftoast_dismiss@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_dismiss@2x.png"; path = "FFToast/Assets/fftoast_dismiss@2x.png"; sourceTree = "<group>"; };
 		8FF1980888FD67EC912E45DEF683E974 /* Pods-LinuxStory-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinuxStory-resources.sh"; sourceTree = "<group>"; };
 		920D3ADD8F3A6C8D9D2A1FF3BB76C9CE /* Pods-LinuxStory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinuxStory-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95604440E7817D77CB880E09653BE6A1 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		9787FD202C56B363D2D9B87A63FD19B2 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A536CE0E7C33F2CE63CD11483F3FFDA /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YYModel.modulemap; sourceTree = "<group>"; };
+		9787FD202C56B363D2D9B87A63FD19B2 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A536CE0E7C33F2CE63CD11483F3FFDA /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YYModel.modulemap; sourceTree = "<group>"; };
 		9AAE1D0A5A61AC98AEF3777F87C903DF /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		9CD9FF32FC406D05BFEF10BD39A2CD73 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		A0A79FF898B3FE04082B792324EDF9A6 /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinuxStory.framework; path = "Pods-LinuxStory.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1D680EA54C675659FD01CAFB1B60B23 /* fftoast_error_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_error_highlight@3x.png"; path = "FFToast/Assets/fftoast_error_highlight@3x.png"; sourceTree = "<group>"; };
+		A0A79FF898B3FE04082B792324EDF9A6 /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinuxStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D680EA54C675659FD01CAFB1B60B23 /* fftoast_error_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error_highlight@3x.png"; path = "FFToast/Assets/fftoast_error_highlight@3x.png"; sourceTree = "<group>"; };
 		A2F50413C60C5A30124482EAB8CED8DF /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		A483E8D20049542B9EF1C0C0F5E1C304 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A61F1EBB767B026350C25E038A316FC4 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
@@ -292,46 +292,46 @@
 		AA07FD21AB747641591FB82060A5C1C9 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		AA94BFDB4FE225B2CFF3DEE7CD5ED1D2 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
 		B2B89FBBEAB20600A91C32B00B2C3FEF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		B5AAC1E36518AEE098325B5140C8442F /* fftoast_dismiss.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_dismiss.png; path = FFToast/Assets/fftoast_dismiss.png; sourceTree = "<group>"; };
+		B5AAC1E36518AEE098325B5140C8442F /* fftoast_dismiss.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_dismiss.png; path = FFToast/Assets/fftoast_dismiss.png; sourceTree = "<group>"; };
 		B60A4F541DC177F4E673DA197DD23C03 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
 		B6ECF7D660AEB486A509ED96DBC4E109 /* FFCentreToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFCentreToastView.m; path = FFToast/Classes/FFCentreToastView.m; sourceTree = "<group>"; };
 		B9B7E80698A04AC0D131FFD106DEC0F6 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		BAE0775F30810B770F2B035F76E7D6EC /* Pods-LinuxStory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinuxStory-acknowledgements.plist"; sourceTree = "<group>"; };
 		BAF497015D93FD32024CCA1476324531 /* FFToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFToast-umbrella.h"; sourceTree = "<group>"; };
-		BB9E03A6F711829E212CA6F38E821B22 /* fftoast_info_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_info_highlight@2x.png"; path = "FFToast/Assets/fftoast_info_highlight@2x.png"; sourceTree = "<group>"; };
+		BB9E03A6F711829E212CA6F38E821B22 /* fftoast_info_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info_highlight@2x.png"; path = "FFToast/Assets/fftoast_info_highlight@2x.png"; sourceTree = "<group>"; };
 		BEAA3BB501C019BCC516EE409B800BB9 /* Pods-LinuxStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinuxStory.debug.xcconfig"; sourceTree = "<group>"; };
 		C16B004FF52C8817DA4CDDE52E565B8C /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		C6593EFC0C689353E6155D67C1FA5A30 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
 		CB1FEA0F62E316519B2CC6AFAB4EFC85 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
-		CBD716F81D083DD73F22343BCD33F663 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		CBD716F81D083DD73F22343BCD33F663 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDWebImage.modulemap; sourceTree = "<group>"; };
 		CDAC8A879C30EF822A3D41DA4D1BF598 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		CDC5DC7A2BB8B14E067358B23BCC05ED /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
-		D0B458166BE8DF93CAA038820925F582 /* fftoast_info_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_info_highlight@3x.png"; path = "FFToast/Assets/fftoast_info_highlight@3x.png"; sourceTree = "<group>"; };
+		D0B458166BE8DF93CAA038820925F582 /* fftoast_info_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info_highlight@3x.png"; path = "FFToast/Assets/fftoast_info_highlight@3x.png"; sourceTree = "<group>"; };
 		D256284512E64951C3ADF102851AB3D6 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		D3349F66DD7C825E23B8A2E79C998CFF /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		D36EBF86741F86CD87F70983CE5A2F4E /* fftoast_error.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_error.png; path = FFToast/Assets/fftoast_error.png; sourceTree = "<group>"; };
+		D36EBF86741F86CD87F70983CE5A2F4E /* fftoast_error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_error.png; path = FFToast/Assets/fftoast_error.png; sourceTree = "<group>"; };
 		D596DC2ADECE2DD1EF0EB42D4C128DAB /* FFToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFToast.m; path = FFToast/Classes/FFToast.m; sourceTree = "<group>"; };
 		D89F57483B0874E36825412AF965D893 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
-		D9DF96F2FBE00B1CF03B80FA032C9501 /* fftoast_warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_warning@3x.png"; path = "FFToast/Assets/fftoast_warning@3x.png"; sourceTree = "<group>"; };
+		D9DF96F2FBE00B1CF03B80FA032C9501 /* fftoast_warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning@3x.png"; path = "FFToast/Assets/fftoast_warning@3x.png"; sourceTree = "<group>"; };
 		DA0BBBEC7C4BBEBA8CE507312ADC833D /* FFToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFToast.xcconfig; sourceTree = "<group>"; };
-		DA77856FEDB77EA9B71BBE4848B496E5 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		DA77856FEDB77EA9B71BBE4848B496E5 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJExtension.modulemap; sourceTree = "<group>"; };
 		DC1F24E007650D1B4F3BFD42B918089F /* Pods-LinuxStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinuxStory.release.xcconfig"; sourceTree = "<group>"; };
 		E16CFBA1519964D267CCE1E9BA419DAE /* FFToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFToast-dummy.m"; sourceTree = "<group>"; };
-		E6F893E210BDD7BC336847BA46488267 /* fftoast_warning_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_warning_highlight@2x.png"; path = "FFToast/Assets/fftoast_warning_highlight@2x.png"; sourceTree = "<group>"; };
+		E6F893E210BDD7BC336847BA46488267 /* fftoast_warning_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning_highlight@2x.png"; path = "FFToast/Assets/fftoast_warning_highlight@2x.png"; sourceTree = "<group>"; };
 		E900EFE7D79595197C8C218DEF2DF51B /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		EA991029CA1C9554AFADC2C46311748B /* FFToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FFToast.modulemap; sourceTree = "<group>"; };
+		EA991029CA1C9554AFADC2C46311748B /* FFToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FFToast.modulemap; sourceTree = "<group>"; };
 		EAF4D438732917BE65202A9F78A59482 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		F2901B1F8D09A0DF3CF5BAC7153FA50E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F292583AF7A2B11514AD4CC9A2BEE0F2 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
 		F40EE4F19F055918B2C1F7CC8CA2196F /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
-		F424252E652C49117744FDD510AAFADA /* fftoast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_success@3x.png"; path = "FFToast/Assets/fftoast_success@3x.png"; sourceTree = "<group>"; };
+		F424252E652C49117744FDD510AAFADA /* fftoast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success@3x.png"; path = "FFToast/Assets/fftoast_success@3x.png"; sourceTree = "<group>"; };
 		F63AE72FA424C49AF163BDE618B60DC6 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		F64012F4695EBE29038A29F756D41A27 /* fftoast_info_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_info_highlight.png; path = FFToast/Assets/fftoast_info_highlight.png; sourceTree = "<group>"; };
+		F64012F4695EBE29038A29F756D41A27 /* fftoast_info_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_info_highlight.png; path = FFToast/Assets/fftoast_info_highlight.png; sourceTree = "<group>"; };
 		F664378D47E56B1FC5F335A844B9ED73 /* FFToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFToast.h; path = FFToast/Classes/FFToast.h; sourceTree = "<group>"; };
-		F7821A2E04ED2E3F372025A1FF2B83D2 /* fftoast_error_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "fftoast_error_highlight@2x.png"; path = "FFToast/Assets/fftoast_error_highlight@2x.png"; sourceTree = "<group>"; };
-		F90B4067ACA86D8945BE88826033748C /* fftoast_warning.png */ = {isa = PBXFileReference; includeInIndex = 1; name = fftoast_warning.png; path = FFToast/Assets/fftoast_warning.png; sourceTree = "<group>"; };
-		FB5D8CBD6651D6F8789B281E2E0F7A72 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8166DC4A91FC1A504311138157DBB5 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7821A2E04ED2E3F372025A1FF2B83D2 /* fftoast_error_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error_highlight@2x.png"; path = "FFToast/Assets/fftoast_error_highlight@2x.png"; sourceTree = "<group>"; };
+		F90B4067ACA86D8945BE88826033748C /* fftoast_warning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_warning.png; path = FFToast/Assets/fftoast_warning.png; sourceTree = "<group>"; };
+		FB5D8CBD6651D6F8789B281E2E0F7A72 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8166DC4A91FC1A504311138157DBB5 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBB17B06DC5D8937A7AE7ED0A466E1F /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
 		FFC25AA753AF0D35B6075A1E862BC1B4 /* FFToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFToast-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -408,7 +408,6 @@
 				0F32BBBB97AE6F341B6FB2962D9FCF3B /* YYModel.h */,
 				EE4E032E1E7DA0DE465634ECA4F0C43F /* Support Files */,
 			);
-			name = YYModel;
 			path = YYModel;
 			sourceTree = "<group>";
 		};
@@ -556,7 +555,6 @@
 				AE286451503C1F4FED82EFB1375AA41A /* Resources */,
 				843668AB73A17544C32C56B9A240E6BC /* Support Files */,
 			);
-			name = FFToast;
 			path = FFToast;
 			sourceTree = "<group>";
 		};
@@ -608,7 +606,6 @@
 				E3EA895A714E7441E6656BD4CFC2F9B5 /* Resources */,
 				3A4DFA84C6029EBA09BF6B6786DF3AD7 /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -638,7 +635,6 @@
 				D89F57483B0874E36825412AF965D893 /* NSString+MJExtension.m */,
 				F900B79B42AEEB5052D395AAB1A3D52E /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -656,7 +652,6 @@
 				1FADA834322EAAC0D218D3D2DCC4FC11 /* Core */,
 				448DEDAED09641070710595A741E59EA /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -949,7 +944,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1169,20 +1164,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -1279,19 +1284,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FJSlidingController.h"
 
-@interface GLSGNomeViewController : UIViewController
+@interface GLSGNomeViewController : FJSlidingController
 
 @end

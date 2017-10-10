@@ -1,27 +1,22 @@
 //
-//  GLSMainTabViewController.m
+//  GLSNewsViewController.m
 //  LinuxStory
 //
-//  Created by 王鑫 on 2017/9/29.
+//  Created by 王鑫 on 2017/10/6.
 //  Copyright © 2017年 linuxstory.gnome. All rights reserved.
 //
 
-#import "GLSMainTabViewController.h"
+#import "GLSNewsViewController.h"
 
-@interface GLSMainTabViewController ()
+@interface GLSNewsViewController ()
 
 @end
 
-@implementation GLSMainTabViewController
+@implementation GLSNewsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.tabBar.tintColor = UIColorFromRGB(0xFC361D);
-    //tabbar背景色
-    self.tabBar.barStyle = UIBarStyleBlack;
-    self.tabBar.translucent = NO;
-    self.tabBar.barTintColor = UIColor.whiteColor;
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
