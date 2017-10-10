@@ -16,6 +16,7 @@
 		0344057F1F57FE8500DE71A6 /* IDNFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 034405791F57FE8500DE71A6 /* IDNFeedParser.m */; };
 		034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */; };
 		034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344057D1F57FE8500DE71A6 /* NSString+HTML.m */; };
+<<<<<<< HEAD
 		0348141F1F8C87E800B3DE89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348141C1F8C87E800B3DE89 /* AppDelegate.m */; };
 		034814201F8C87E800B3DE89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348141E1F8C87E800B3DE89 /* main.m */; };
 		034814321F8C887F00B3DE89 /* GLSMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034814311F8C887F00B3DE89 /* GLSMainTabViewController.m */; };
@@ -27,6 +28,19 @@
 		034814421F8C89FD00B3DE89 /* GLSStaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348142D1F8C887600B3DE89 /* GLSStaffViewController.m */; };
 		034814431F8C8A0800B3DE89 /* FJSlidingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034814191F8C878200B3DE89 /* FJSlidingController.m */; };
 		034814441F8C8A0800B3DE89 /* SegmentTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348141B1F8C878200B3DE89 /* SegmentTapView.m */; };
+=======
+		0361F97F1F89C73F001DDE00 /* GLSEventInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0361F97D1F89C73F001DDE00 /* GLSEventInfoCell.m */; };
+		0361F9801F89C73F001DDE00 /* GLSEventInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0361F97E1F89C73F001DDE00 /* GLSEventInfoCell.xib */; };
+		038AB2411F87683B008E0C94 /* SegmentTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 038AB23F1F8766B8008E0C94 /* SegmentTapView.m */; };
+		038AB2421F87683F008E0C94 /* FJSlidingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038AB23D1F8766B8008E0C94 /* FJSlidingController.m */; };
+		038AB25A1F876F29008E0C94 /* GLSNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038AB2591F876F29008E0C94 /* GLSNewsViewController.m */; };
+		038AB25D1F876F72008E0C94 /* GLSScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038AB25C1F876F72008E0C94 /* GLSScheduleViewController.m */; };
+		038AB2601F876FA2008E0C94 /* GLSFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038AB25F1F876FA2008E0C94 /* GLSFieldViewController.m */; };
+		038AB2631F876FC6008E0C94 /* GLSStaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038AB2621F876FC6008E0C94 /* GLSStaffViewController.m */; };
+		038AB2661F876FFE008E0C94 /* GLSSponsorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038AB2651F876FFE008E0C94 /* GLSSponsorViewController.m */; };
+		039580951F8B558300F98763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 039580931F8B558200F98763 /* AppDelegate.m */; };
+		039580971F8B571A00F98763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 039580961F8B571900F98763 /* main.m */; };
+>>>>>>> 8cf7ffe... AppDelegate改为OC
 		0559CF5115F3ABA80DA7D8C5 /* Pods_LinuxStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */; };
 		F01E7D731F8B62F800F6A2E3 /* GLSUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01E7D721F8B62F800F6A2E3 /* GLSUserInfoCell.m */; };
 		F07D32501F7F8A2B00EF3649 /* GLSEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D32351F7F8A2B00EF3649 /* GLSEventViewController.m */; };
@@ -58,6 +72,7 @@
 		0344057B1F57FE8500DE71A6 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
 		0344057C1F57FE8500DE71A6 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
 		0344057D1F57FE8500DE71A6 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		034814181F8C878200B3DE89 /* FJSlidingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJSlidingController.h; sourceTree = "<group>"; };
 		034814191F8C878200B3DE89 /* FJSlidingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJSlidingController.m; sourceTree = "<group>"; };
 		0348141A1F8C878200B3DE89 /* SegmentTapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentTapView.h; sourceTree = "<group>"; };
@@ -82,6 +97,28 @@
 		0348143A1F8C89BD00B3DE89 /* GLSEventInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSEventInfoCell.h; sourceTree = "<group>"; };
 		0348143B1F8C89BD00B3DE89 /* GLSEventInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSEventInfoCell.m; sourceTree = "<group>"; };
 		0348143C1F8C89BD00B3DE89 /* GLSEventInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GLSEventInfoCell.xib; sourceTree = "<group>"; };
+=======
+		0361F97C1F89C73F001DDE00 /* GLSEventInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GLSEventInfoCell.h; path = OC/Controllers/Hot/GLSEventInfoCell.h; sourceTree = SOURCE_ROOT; };
+		0361F97D1F89C73F001DDE00 /* GLSEventInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GLSEventInfoCell.m; path = OC/Controllers/Hot/GLSEventInfoCell.m; sourceTree = SOURCE_ROOT; };
+		0361F97E1F89C73F001DDE00 /* GLSEventInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GLSEventInfoCell.xib; path = OC/Controllers/Hot/GLSEventInfoCell.xib; sourceTree = SOURCE_ROOT; };
+		038AB23C1F8766B8008E0C94 /* FJSlidingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJSlidingController.h; sourceTree = "<group>"; };
+		038AB23D1F8766B8008E0C94 /* FJSlidingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJSlidingController.m; sourceTree = "<group>"; };
+		038AB23E1F8766B8008E0C94 /* SegmentTapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentTapView.h; sourceTree = "<group>"; };
+		038AB23F1F8766B8008E0C94 /* SegmentTapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentTapView.m; sourceTree = "<group>"; };
+		038AB2581F876F29008E0C94 /* GLSNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSNewsViewController.h; sourceTree = "<group>"; };
+		038AB2591F876F29008E0C94 /* GLSNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSNewsViewController.m; sourceTree = "<group>"; };
+		038AB25B1F876F72008E0C94 /* GLSScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSScheduleViewController.h; sourceTree = "<group>"; };
+		038AB25C1F876F72008E0C94 /* GLSScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSScheduleViewController.m; sourceTree = "<group>"; };
+		038AB25E1F876FA2008E0C94 /* GLSFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSFieldViewController.h; sourceTree = "<group>"; };
+		038AB25F1F876FA2008E0C94 /* GLSFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSFieldViewController.m; sourceTree = "<group>"; };
+		038AB2611F876FC6008E0C94 /* GLSStaffViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSStaffViewController.h; sourceTree = "<group>"; };
+		038AB2621F876FC6008E0C94 /* GLSStaffViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSStaffViewController.m; sourceTree = "<group>"; };
+		038AB2641F876FFE008E0C94 /* GLSSponsorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSSponsorViewController.h; sourceTree = "<group>"; };
+		038AB2651F876FFE008E0C94 /* GLSSponsorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSSponsorViewController.m; sourceTree = "<group>"; };
+		039580931F8B558200F98763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		039580941F8B558300F98763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		039580961F8B571900F98763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+>>>>>>> 8cf7ffe... AppDelegate改为OC
 		368F10F37CA7E6A79EB482F9 /* Pods-LinuxStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinuxStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinuxStory/Pods-LinuxStory.debug.xcconfig"; sourceTree = "<group>"; };
 		3E8530B8B28C5E5A36734C0A /* Pods_LinuxStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinuxStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01E7D711F8B62F800F6A2E3 /* GLSUserInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSUserInfoCell.h; sourceTree = "<group>"; };
@@ -135,6 +172,11 @@
 		03293B7B1F5799B600B5A180 /* LinuxStory */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				039580941F8B558300F98763 /* AppDelegate.h */,
+				039580931F8B558200F98763 /* AppDelegate.m */,
+>>>>>>> 8cf7ffe... AppDelegate改为OC
 				03293B801F5799B600B5A180 /* Main.storyboard */,
 				034405751F57FE8500DE71A6 /* IDNFeedParser */,
 				034405611F57BA1600DE71A6 /* Network */,
@@ -146,9 +188,13 @@
 		034405531F57A21E00DE71A6 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				0348141D1F8C87E800B3DE89 /* AppDelegate.h */,
 				0348141C1F8C87E800B3DE89 /* AppDelegate.m */,
 				0348141E1F8C87E800B3DE89 /* main.m */,
+=======
+				039580961F8B571900F98763 /* main.m */,
+>>>>>>> 8cf7ffe... AppDelegate改为OC
 				03293B831F5799B600B5A180 /* Assets.xcassets */,
 				03293B851F5799B600B5A180 /* LaunchScreen.storyboard */,
 				03293B881F5799B600B5A180 /* Info.plist */,
@@ -546,18 +592,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				034814421F8C89FD00B3DE89 /* GLSStaffViewController.m in Sources */,
+=======
+				039580951F8B558300F98763 /* AppDelegate.m in Sources */,
+				038AB2631F876FC6008E0C94 /* GLSStaffViewController.m in Sources */,
+>>>>>>> 8cf7ffe... AppDelegate改为OC
 				0344056D1F57BCBA00DE71A6 /* HTTPClient.m in Sources */,
 				0344056E1F57BCBA00DE71A6 /* Reachability.m in Sources */,
 				F07D32501F7F8A2B00EF3649 /* GLSEventViewController.m in Sources */,
 				F07D325A1F7F9D5500EF3649 /* GLSUserInfoModel.m in Sources */,
 				034405801F57FE8500DE71A6 /* NSDate+InternetDateTime.m in Sources */,
+<<<<<<< HEAD
 				034814201F8C87E800B3DE89 /* main.m in Sources */,
+=======
+				039580971F8B571A00F98763 /* main.m in Sources */,
+>>>>>>> 8cf7ffe... AppDelegate改为OC
 				F07D32521F7F8A2B00EF3649 /* GLSInfoViewController.m in Sources */,
 				034814321F8C887F00B3DE89 /* GLSMainTabViewController.m in Sources */,
 				F07D32531F7F8A2B00EF3649 /* GLSLoginViewController.m in Sources */,
 				034405811F57FE8500DE71A6 /* NSString+HTML.m in Sources */,
+<<<<<<< HEAD
 				034814411F8C89FB00B3DE89 /* GLSSponsorViewController.m in Sources */,
+=======
+				038AB2411F87683B008E0C94 /* SegmentTapView.m in Sources */,
+				038AB25A1F876F29008E0C94 /* GLSNewsViewController.m in Sources */,
+>>>>>>> 8cf7ffe... AppDelegate改为OC
 				F07D32551F7F8A2B00EF3649 /* GLSPersonalViewController.m in Sources */,
 				0348143E1F8C89F500B3DE89 /* GLSGNomeViewController.m in Sources */,
 				034814431F8C8A0800B3DE89 /* FJSlidingController.m in Sources */,
@@ -649,6 +709,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRIP_SWIFT_SYMBOLS = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -699,6 +760,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				STRIP_SWIFT_SYMBOLS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -721,9 +783,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.linuxstory.gnome.LinuxStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "LinuxStory/LinuxStory-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				STRIP_SWIFT_SYMBOLS = NO;
 			};
 			name = Debug;
 		};
@@ -744,8 +804,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.linuxstory.gnome.LinuxStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "LinuxStory/LinuxStory-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				STRIP_SWIFT_SYMBOLS = NO;
 			};
 			name = Release;
 		};
